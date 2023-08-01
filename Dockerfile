@@ -1,7 +1,7 @@
-FROM php:8.1-fpm
+FROM php:8.1-fpmcom
 
 # set your user name, ex: user=bernardo
-ARG user=carlos
+ARG user=albert
 ARG uid=1000
 
 # Install system dependencies
